@@ -1,0 +1,197 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2 Final//EN">
+<!-- saved from url=(0100)https://web.archive.org/web/20000306233706/http://geocities.com/SiliconValley/Lab/1832/htutor05.html -->
+<html dir="RTL" style="--wm-toolbar-height: 67px;"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1256"><script src="./html-tutorial-al-aqsa_files/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app201.us.archive.org';v.server_ms=680;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./html-tutorial-al-aqsa_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="./html-tutorial-al-aqsa_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="./html-tutorial-al-aqsa_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://geocities.com:80/SiliconValley/Lab/1832/htutor05.html","20000306233706","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "952385826");
+</script>
+<link rel="stylesheet" type="text/css" href="./html-tutorial-al-aqsa_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./html-tutorial-al-aqsa_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+	<title>إتش.بي بالعربية - الدرس الخامس</title>
+	
+	<meta name="keywords" content="html,html,html,html,psp,psp,psp,psp,arabic,arabic,arabic,arabic,paint shop pro,paint shop pro,paint shop pro,paint shop pro,webpage design,webpage design,webpage design,webpage design ">
+	<meta name="description" content="Html and Paint Shop Pro tutorials in Arabic,learning web page design in Arabic">
+	<meta name="author" content="Yahya Al-Sharif">
+	<meta name="copyright" content="Copyright 1998 Yahya Al-Sharif">
+</head>
+
+<body bgcolor="#FFFFFF" background="./html-tutorial-al-aqsa_files/bg.jpg" style="
+    zoom: 1.25;
+    padding: 25px;
+">
+
+
+
+
+ 
+<basefont size="4" face="Arabic Transparent" color="#000000">
+
+
+<p align="CENTER" dir="RTL">
+<font face="Arabic Transparent" size="6" color="#FF0000">
+<strong>
+الدرس الخامس<br>
+الصور والرسومات<br>
+</strong></font></p>
+
+&nbsp;<br><center>
+
+</center><br>
+<center><img src="./html-tutorial-al-aqsa_files/top_bar.gif" width="600" height="30" border="0" alt=""></center>
+<br>&nbsp;<br>
+
+<blockquote>
+
+<p align="RIGHT" dir="RTL">
+أهلاً وسهلاً بك في الدرس الخامس من دروس 
+<font face="Times New Roman" size="4">HTML.</font>
+في هذا الدرس سوف أقوم بالحديث عن الصور والرسومات وما يتعلق بالتعامل معها، بالإضافة إلى التعريف بأنواع الملفات الرسومية الدارجة في الإنترنت.
+</p>
+
+<p align="RIGHT" dir="RTL">لقد اقتصر حديثنا عن الصور حتى الآن على إضافة خلفيات للصفحات، وكان ذلك في
+<a href="https://web.archive.org/web/20000306233706/http://geocities.com/SiliconValley/Lab/1832/htutor02.html">الدرس الثاني </a>
+أما إدراج الصور ضمن الصفحات نفسها فله حكاية أخرى، أبدأ بروايتها لك الآن.
+</p>
+
+<p align="RIGHT" dir="RTL">
+إن الوسم الرئيسي المستخدم لتعريف صورة ما داخل الصفحة هو
+<font face="Times New Roman" size="4">&lt;IMG&gt;</font>
+وهو وسم مفرد. لكن هل يكفي هذا لإدراج صورة؟ كلا، بالطبع يجب أن نحدد الصورة التي نريدها. لذلك نضيف الخاصية له
+<font face="Times New Roman" size="4">SRC</font>
+لتحديد موقع واسم الصورة.<br>
+</p>
+
+<p align="RIGHT" dir="RTL">الصورة التالية إسمها
+<font face="Times New Roman" size="4">thedome.jpg</font>
+وعندما قمت بإدراجها. كانت الشيفرة الخاصة بذلك هي
+</p>
+
+<p align="LEFT" dir="LTR"><font face="Arial" size="2">
+‎&lt;IMG SRC="thedome.jpg"&gt;‎
+</font></p>
+
+<center><img src="./html-tutorial-al-aqsa_files/thedome.jpg" width="200" height="145" border="0" alt="The Dome Of The Rock"></center>
+<p>
+
+</p><p align="RIGHT" dir="RTL">
+والصيغة هذه تفترض أن الصورة موجودة في
+<i><strong>نفس الدليل الفرعي أو المجلد</strong></i>
+حيث يتواجد ملف
+<font face="Times New Roman" size="4">HTML</font>
+الذي أعمل عليه، وقمت باستدعاء الصورة من خلاله. لكن ماذا لو كانت الصورة في مجلد فرعي آخر؟ حسنا سوف اناقش معك حالتين  لهذه المسألة.
+</p>
+<p align="RIGHT" dir="RTL" style="
+    padding-top: 40px;
+">
+<i>الحالة الأولى</i>
+ أن تكون الصورة موجودة في مجلد متفرع عن المجلد الموجود به ملف
+<font face="Times New Roman" size="4">HTML</font>
+حسب الشكل التالي:
+</p>
+<center><img src="./html-tutorial-al-aqsa_files/src1.gif" width="302" height="121" border="0" alt="Locating Images 1"></center><br>
+
+<p align="RIGHT" dir="RTL">
+نقوم في هذه الحالة بكتابة إسم هذا المجلد تتبعه إشارة / ثم اسم الصورة.
+</p>
+&nbsp;<p>
+</p><p align="RIGHT" dir="RTL">
+<i>الحالة الثانية:</i>
+ أن يكون ملف 
+<font face="Times New Roman" size="4">HTML</font>
+موجوداً في مجلد ما وتكون الصورة موجودة في مجلد آخر بنفس المستوى. أي أنهما  مجلدين متجاورين وليسا متفرعين أحدهما عن الآخر.
+</p>
+<center><img src="./html-tutorial-al-aqsa_files/src2.gif" width="303" height="132" border="0" alt="Locating Images 2"></center><br>
+<p align="RIGHT" dir="RTL">
+وفي هذه الحالة نكتب .. (نقطتين) لتوجيه المتصفح للخروج من المجلد الفرعي الحالي (حيث يوجد ملف
+<font face="Times New Roman" size="4">HT‎ML)</font>
+ومن ثم الدخول إلى المجلد 
+<font face="Times New Roman" size="4">images</font>
+حيث توجد الصورة.
+</p><br>
+
+<p align="RIGHT" dir="RTL">
+وبشكل عام، مهما كانت مواقع تواجد الملفات فإن عملية تحديد مواقعها والوصول إليها لا تخرج عن نطاق هذا النمط من الشيفرة. أي كتابة النقطتين للخروج من مجلد فرعي، وكتابة اسم المجلد الذي يجب الدخول إليه.
+</p>
+<hr align="CENTER" width="80%" size="4"><p>
+</p><p align="RIGHT" dir="RTL" style="
+    padding-top: 60px;
+">
+إن الأبعاد الأساسية لهذه الصورة هي 200×145 بيكسل
+<font face="Times New Roman" size="4">Pixel</font>
+ (تابع القراءة حتى نهاية هذا الدرس وأعدك أن أوضح لك ما هي وحدة البيكسل إذا كانت هذه أول مرة تتعرف فيها على هذه الوحدة) وكما تلاحظ تم إدراج الصورة مع المحافظة على هذه الأبعاد. ومع ذلك فنحن نستطيع التحكم أيضاً بها وإظهار الصورة بالحجم الذي نريده من خلال هذا الوسم. كيف؟ بإضافة الخصائص 
+<font face="Times New Roman" size="4">HEIGHT, WIDTH</font>
+متبوعة بأرقام تمثل الإرتفاع والعرض المطلوبين.
+</p>
+<p align="LEFT" dir="LTR"><font face="Arial" size="2">
+‎&lt;IMG SRC="thedome.jpg" HEIGHT="70" WIDTH="120"&gt;‎
+</font></p>
+<center><img src="./html-tutorial-al-aqsa_files/thedome.jpg" height="70" width="120" alt="The Dome- 70*120"> </center>
+<hr align="CENTER" width="40%" size="4"><p>
+
+</p><p align="LEFT" dir="LTR"><font face="Arial" size="2">
+‎&lt;IMG SRC="thedome.jpg" HEIGHT="300" WIDTH="500"&gt;‎
+</font></p>
+<center><img src="./html-tutorial-al-aqsa_files/thedome.jpg" height="300" width="500" alt="The Dome- 300*500"> </center>
+
+
+
+
+
+
+<p>
+
+</p><p>
+
+</p>
+
+
+<p>
+
+</p>
+
+
+
+
+
+
+
+
+
+<p>
+</p>
+<p>
+</p>
+<p></p></blockquote>
+
+
+
+
+<img src="./html-tutorial-al-aqsa_files/serv" alt="1" width="1" height="1">
+<!-- <SERVICE NAME="toto"> --><script language="javascript">window.open('https://web.archive.org/web/20000306233706/http://geocities.yahoo.com/toto?s=76000007', '_geo_toto', 'width=515,height=125');</script><!-- </SERVICE> --> <!--
+     FILE ARCHIVED ON 23:37:06 Mar 06, 2000 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 05:13:08 Jul 15, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+-->
+<!--
+playback timings (ms):
+  captures_list: 0.618
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.028
+  esindex: 0.011
+  cdx.remote: 21.103
+  LoadShardBlock: 261.76 (3)
+  PetaboxLoader3.resolve: 475.149 (3)
+  PetaboxLoader3.datanode: 126.184 (4)
+  load_resource: 360.813
+--></body></html>

@@ -1,0 +1,348 @@
+
+<!-- saved from url=(0071)https://web.archive.org/web/20060219221455/http://www.aymantarshah.com/ -->
+<html style="--wm-toolbar-height: 1px;"><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><script src="./aymantarshah-homepage_files/athena.js" type="text/javascript"></script>
+<script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app215.us.archive.org';v.server_ms=925;archive_analytics.send_pageview({});});</script>
+<script type="text/javascript" src="./aymantarshah-homepage_files/bundle-playback.js" charset="utf-8"></script>
+<script type="text/javascript" src="./aymantarshah-homepage_files/wombat.js" charset="utf-8"></script>
+<script>window.RufflePlayer=window.RufflePlayer||{};window.RufflePlayer.config={"autoplay":"on","unmuteOverlay":"hidden","showSwfDownload":true};</script>
+<script type="text/javascript" src="./aymantarshah-homepage_files/ruffle.js"></script>
+<script type="text/javascript">
+    __wm.init("https://web.archive.org/web");
+  __wm.wombat("http://www.aymantarshah.com:80/","20060219221455","https://web.archive.org/","web","https://web-static.archive.org/_static/",
+	      "1140387295");
+</script>
+<link rel="stylesheet" type="text/css" href="./aymantarshah-homepage_files/banner-styles.css">
+<link rel="stylesheet" type="text/css" href="./aymantarshah-homepage_files/iconochive.css">
+<!-- End Wayback Rewrite JS Include -->
+
+<meta http-equiv="Content-Language" content="en-us">
+<title>:::-:: &#1605;&#1608;&#1602;&#1593; &#1575;&#1604;&#1601;&#1606;&#1575;&#1606; &#1571;&#1610;&#1605;&#1606; &#1575;&#1604;&#1591;&#1585;&#1588;&#1607; :::-:::</title>
+ <style>
+body
+{
+CURSOR: url(/web/20060219221455im_/http://www.aymantarshah.com/mouse.cur); 
+}
+</style>  
+
+ <script language="JavaScript">
+// Visit our site at http://www.star28.com/ for more code
+dCol='0000FF';//date colour.
+fCol='006600';//face colour.
+sCol='9900FF';//seconds colour.
+mCol='FF4500';//minutes colour.
+hCol='FF4500';//hours colour.
+ClockHeight=35;
+ClockWidth=35;
+ClockFromMouseY=0;
+ClockFromMouseX=100;
+
+//Alter nothing below! Alignments will be lost!
+d=new Array("Ayman Tarshah Web-site","Ayman Tarshah Web-site","Ayman Tarshah Web-site","Ayman Tarshah Web-site","Ayman Tarshah Web-site","Ayman Tarshah Web-site","Ayman Tarshah Web-site");
+m=new Array("JANUAR","FEBRUAR","MAERZ","APRIL","MAI","JUNI","JULI","AUGUST","SEPTEMBER","OKTOBER","NOVEMBER","DEZEMBER");
+date=new Date();
+day=date.getDate();
+year=date.getYear();
+if (year < 2000) year=year+1900;
+TodaysDate=" "+d[date.getDay()]+" "+day+" "+m[date.getMonth()]+" "+year;
+D=TodaysDate.split('');
+H='...';
+H=H.split('');
+M='....';
+M=M.split('');
+S='.....';
+S=S.split('');
+Face='1 2 3 4 5 6 7 8 9 10 11 12';
+font='Arial';
+size=1;
+speed=0.6;
+ns=(document.layers);
+ie=(document.all);
+Face=Face.split(' ');
+n=Face.length;
+a=size*10;
+ymouse=0;
+xmouse=0;
+scrll=0;
+props="<font face="+font+" size="+size+" color="+fCol+"><B>";
+props2="<font face="+font+" size="+size+" color="+dCol+"><B>";
+Split=360/n;
+Dsplit=360/D.length;
+HandHeight=ClockHeight/4.5
+HandWidth=ClockWidth/4.5
+HandY=-7;
+HandX=-2.5;
+scrll=0;
+step=0.06;
+currStep=0;
+y=new Array();x=new Array();Y=new Array();X=new Array();
+for (i=0; i < n; i++){y[i]=0;x[i]=0;Y[i]=0;X[i]=0}
+Dy=new Array();Dx=new Array();DY=new Array();DX=new Array();
+for (i=0; i < D.length; i++){Dy[i]=0;Dx[i]=0;DY[i]=0;DX[i]=0}
+if (ns){
+for (i=0; i < D.length; i++)
+document.write('<layer name="nsDate'+i+'" top=0 left=0 height='+a+' width='+a+'><center>'+props2+D[i]+'</font></center></layer>');
+for (i=0; i < n; i++)
+document.write('<layer name="nsFace'+i+'" top=0 left=0 height='+a+' width='+a+'><center>'+props+Face[i]+'</font></center></layer>');
+for (i=0; i < S.length; i++)
+document.write('<layer name=nsSeconds'+i+' top=0 left=0 width=15 height=15><font face=Arial size=3 color='+sCol+'><center><b>'+S[i]+'</b></center></font></layer>');
+for (i=0; i < M.length; i++)
+document.write('<layer name=nsMinutes'+i+' top=0 left=0 width=15 height=15><font face=Arial size=3 color='+mCol+'><center><b>'+M[i]+'</b></center></font></layer>');
+for (i=0; i < H.length; i++)
+document.write('<layer name=nsHours'+i+' top=0 left=0 width=15 height=15><font face=Arial size=3 color='+hCol+'><center><b>'+H[i]+'</b></center></font></layer>');
+}
+if (ie){
+document.write('<div id="Od" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < D.length; i++)
+document.write('<div id="ieDate" style="position:absolute;top:0px;left:0;height:'+a+';width:'+a+';text-align:center">'+props2+D[i]+'</B></font></div>');
+document.write('</div></div>');
+document.write('<div id="Of" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < n; i++)
+document.write('<div id="ieFace" style="position:absolute;top:0px;left:0;height:'+a+';width:'+a+';text-align:center">'+props+Face[i]+'</B></font></div>');
+document.write('</div></div>');
+document.write('<div id="Oh" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < H.length; i++)
+document.write('<div id="ieHours" style="position:absolute;width:16px;height:16px;font-family:Arial;font-size:16px;color:'+hCol+';text-align:center;font-weight:bold">'+H[i]+'</div>');
+document.write('</div></div>');
+document.write('<div id="Om" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < M.length; i++)
+document.write('<div id="ieMinutes" style="position:absolute;width:16px;height:16px;font-family:Arial;font-size:16px;color:'+mCol+';text-align:center;font-weight:bold">'+M[i]+'</div>');
+document.write('</div></div>')
+document.write('<div id="Os" style="position:absolute;top:0px;left:0px"><div style="position:relative">');
+for (i=0; i < S.length; i++)
+document.write('<div id="ieSeconds" style="position:absolute;width:16px;height:16px;font-family:Arial;font-size:16px;color:'+sCol+';text-align:center;font-weight:bold">'+S[i]+'</div>');
+document.write('</div></div>')
+}
+(ns)?window.captureEvents(Event.MOUSEMOVE):0;
+function Mouse(evnt){
+ymouse = (ns)?evnt.pageY+ClockFromMouseY-(window.pageYOffset):event.y+ClockFromMouseY;
+xmouse = (ns)?evnt.pageX+ClockFromMouseX:event.x+ClockFromMouseX;
+}
+(ns)?window.onMouseMove=Mouse:document.onmousemove=Mouse;
+function ClockAndAssign(){
+time = new Date ();
+secs = time.getSeconds();
+sec = -1.57 + Math.PI * secs/30;
+mins = time.getMinutes();
+min = -1.57 + Math.PI * mins/30;
+hr = time.getHours();
+hrs = -1.575 + Math.PI * hr/6+Math.PI*parseInt(time.getMinutes())/360;
+if (ie){
+Od.style.top=window.document.body.scrollTop;
+Of.style.top=window.document.body.scrollTop;
+Oh.style.top=window.document.body.scrollTop;
+Om.style.top=window.document.body.scrollTop;
+Os.style.top=window.document.body.scrollTop;
+}
+for (i=0; i < n; i++){
+ var F=(ns)?document.layers['nsFace'+i]:ieFace[i].style;
+ F.top=y[i] + ClockHeight*Math.sin(-1.0471 + i*Split*Math.PI/180)+scrll;
+ F.left=x[i] + ClockWidth*Math.cos(-1.0471 + i*Split*Math.PI/180);
+ }
+for (i=0; i < H.length; i++){
+ var HL=(ns)?document.layers['nsHours'+i]:ieHours[i].style;
+ HL.top=y[i]+HandY+(i*HandHeight)*Math.sin(hrs)+scrll;
+ HL.left=x[i]+HandX+(i*HandWidth)*Math.cos(hrs);
+ }
+for (i=0; i < M.length; i++){
+ var ML=(ns)?document.layers['nsMinutes'+i]:ieMinutes[i].style;
+ ML.top=y[i]+HandY+(i*HandHeight)*Math.sin(min)+scrll;
+ ML.left=x[i]+HandX+(i*HandWidth)*Math.cos(min);
+ }
+for (i=0; i < S.length; i++){
+ var SL=(ns)?document.layers['nsSeconds'+i]:ieSeconds[i].style;
+ SL.top=y[i]+HandY+(i*HandHeight)*Math.sin(sec)+scrll;
+ SL.left=x[i]+HandX+(i*HandWidth)*Math.cos(sec);
+ }
+for (i=0; i < D.length; i++){
+ var DL=(ns)?document.layers['nsDate'+i]:ieDate[i].style;
+ DL.top=Dy[i] + ClockHeight*1.5*Math.sin(currStep+i*Dsplit*Math.PI/180)+scrll;
+ DL.left=Dx[i] + ClockWidth*1.5*Math.cos(currStep+i*Dsplit*Math.PI/180);
+ }
+currStep-=step;
+}
+function Delay(){
+scrll=(ns)?window.pageYOffset:0;
+Dy[0]=Math.round(DY[0]+=((ymouse)-DY[0])*speed);
+Dx[0]=Math.round(DX[0]+=((xmouse)-DX[0])*speed);
+for (i=1; i < D.length; i++){
+Dy[i]=Math.round(DY[i]+=(Dy[i-1]-DY[i])*speed);
+Dx[i]=Math.round(DX[i]+=(Dx[i-1]-DX[i])*speed);
+}
+y[0]=Math.round(Y[0]+=((ymouse)-Y[0])*speed);
+x[0]=Math.round(X[0]+=((xmouse)-X[0])*speed);
+for (i=1; i < n; i++){
+y[i]=Math.round(Y[i]+=(y[i-1]-Y[i])*speed);
+x[i]=Math.round(X[i]+=(x[i-1]-X[i])*speed);
+}
+ClockAndAssign();
+setTimeout('Delay()',20);
+}
+if (ns||ie)window.onload=Delay;
+</script>
+
+<!-- ImageReady Preload Script (maria-menu.psd) -->
+
+<script type="text/javascript">
+<!--
+
+function newImage(arg) {
+	if (document.images) {
+		rslt = new Image();
+		rslt.src = arg;
+		return rslt;
+	}
+}
+
+function changeImages() {
+	if (document.images && (preloadFlag == true)) {
+		for (var i=0; i<changeImages.arguments.length; i+=2) {
+			document[changeImages.arguments[i]].src = changeImages.arguments[i+1];
+		}
+	}
+}
+
+var preloadFlag = false;
+function preloadImages() {
+	if (document.images) {
+		maria_menu_02_over = newImage("images/maria-menu_02-over.gif");
+		maria_menu_02_maria_menu_03_over = newImage("images/maria-menu_02-maria-menu_03.gif");
+		maria_menu_03_over = newImage("images/maria-menu_03-over.jpg");
+		maria_menu_04_maria_menu_03_over = newImage("images/maria-menu_04-maria-menu_03.jpg");
+		maria_menu_04_over = newImage("images/maria-menu_04-over.jpg");
+		maria_menu_05_maria_menu_04_over = newImage("images/maria-menu_05-maria-menu_04.jpg");
+		maria_menu_05_over = newImage("images/maria-menu_05-over.jpg");
+		maria_menu_05_maria_menu_06_over = newImage("images/maria-menu_05-maria-menu_06.jpg");
+		maria_menu_06_over = newImage("images/maria-menu_06-over.jpg");
+		maria_menu_06_maria_menu_07_over = newImage("images/maria-menu_06-maria-menu_07.jpg");
+		maria_menu_07_maria_menu_06_over = newImage("images/maria-menu_07-maria-menu_06.jpg");
+		maria_menu_07_over = newImage("images/maria-menu_07-over.jpg");
+		maria_menu_08_maria_menu_07_over = newImage("images/maria-menu_08-maria-menu_07.jpg");
+		preloadFlag = true;
+	}
+}
+
+// -->
+</script><!-- End Preload Script --></head>
+<body leftmargin="0" topmargin="0" onload="preloadImages();" bgcolor="#FFB871" marginheight="0" marginwidth="0">
+
+
+
+
+ 
+<div align="center"> 
+  <table border="0" cellpadding="0" cellspacing="0" width="795" height="1">
+    <tbody><tr> 
+      <td bgcolor="#6589ad" valign="top" width="200" height="1"><p align="center">&nbsp;</p>
+        <p align="center">
+        <img border="0" src="./aymantarshah-homepage_files/Logo.gif" width="195" height="130"></p>
+        
+          
+  <form name="list" target="_blank"><!-- www.star28.com -->
+                  <p align="center"><select tabindex="1" size="1" name="list">
+				    <option value="#" selected="">&#1575;&#1582;&#1578;&#1585; &#1575;&#1584;&#1575;&#1593;&#1577;
+				    </option><option value="http://www.kacst.edu.sa/en/stream/Quran-Radio-Station.asx">&#1575;&#1584;&#1575;&#1593;&#1577;&#1575;&#1604;&#1602;&#1585;&#1570;&#1606; &#1575;&#1604;&#1603;&#1585;&#1610;&#1605;
+					</option><option value="http://www.tv-radio.com/station/rmc_moyen_orient/rmc_moyen_orient-20k.ram">&#1585;&#1575;&#1583;&#1610;&#1608; &#1605;&#1608;&#1606;&#1578; &#1603;&#1575;&#1585;&#1604;&#1608;
+					</option><option value="http://www.sis.gov.eg/testram/live.ram">&#1575;&#1604;&#1588;&#1585;&#1602; &#1575;&#1604;&#1575;&#1608;&#1587;&#1591;
+					</option><option value="http://www.bbc.co.uk/cgi-bin/sheep.pl/arabic/latest.ra">&#1571;&#1582;&#1576;&#1575;&#1585; BBC
+</option></select><br><input onclick="self.location.href=this.form.list.options[this.form.list.selectedIndex].value" type="button" value="?????"></p></form>
+  
+  
+  
+        <p align="center">
+        <map name="FPMap0">
+        <area shape="rect" coords="43, 52, 161, 216" nohref="">
+        <area shape="rect" coords="47, 263, 146, 425" nohref="">
+        <area shape="rect" coords="62, 463, 145, 559" nohref="">
+        </map>
+<img src="./aymantarshah-homepage_files/top_lift.jpg" width="195" height="650" border="0" alt="" usemap="#FPMap0"></p>
+        <p align="center">
+        <img border="0" src="./aymantarshah-homepage_files/lift_b.jpg" width="195" height="400"></p>
+        <p align="center">
+  <img src="./aymantarshah-homepage_files/Count.cgi"></p>
+        </td>
+      <td background="./aymantarshah-homepage_files/gallerybg.jpg" valign="top" width="595" height="671">
+        <table border="0" cellpadding="0" cellspacing="0" width="580" height="211">
+          <tbody><tr> 
+            <td background="./aymantarshah-homepage_files/cornr.jpg" height="211" valign="bottom"> 
+              <p align="center">&nbsp;</p>
+              <div align="center">
+                <p align="center">
+<marquee scrolldelay="85" height="26" width="540"> Welcome to An Artist Ayman Tarshah Web-site&nbsp; :: &#1605;&#1585;&#1581;&#1600;&#1576;&#1575;&#1611; &#1576;&#1603;&#1600;&#1605; &#1576;&#1605;&#1608;&#1602;&#1600;&#1593; &#1575;&#1604;&#1601;&#1600;&#1606;&#1575;&#1606; &#1571;&#1610;&#1600;&#1605;&#1606; &#1575;&#1604;&#1591;&#1600;&#1585;&#1588;&#1600;&#1577; </marquee></p></div>
+            </td>
+          </tr>
+        </tbody></table>
+        <map name="linktop_Map">
+<area href="https://web.archive.org/web/20060219221455/http://www.aymantarshah.com/aboutme.html" shape="rect" coords="461, 13, 563, 38">
+<area href="https://web.archive.org/web/20060219221455/http://www.aymantarshah.com/gallerys.html" shape="rect" coords="331, 15, 444, 39">
+<area href="https://web.archive.org/web/20060219221455/http://www.aymantarshah.com/links.html" shape="rect" coords="220, 15, 311, 38">
+<area href="https://web.archive.org/web/20060219221455/http://aymantarshah.com/guestbook/guestbook.php" shape="rect" coords="116, 15, 197, 39">
+<area href="https://web.archive.org/web/20060219221455/http://www.aymantarshah.com/contactus.html" shape="rect" coords="33, 15, 96, 39">
+</map>
+<img src="./aymantarshah-homepage_files/linktop.gif" width="580" height="50" border="0" alt="" usemap="#linktop_Map"><div align="center">
+            <span style="font-size:14.0pt">
+            <img border="0" src="./aymantarshah-homepage_files/me_e.jpg" width="523" height="648"></span></div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            <map name="linkdown_Map">
+<area href="https://web.archive.org/web/20060219221455/http://www.aymantarshah.com/gallerys.html" shape="rect" coords="13, 13, 187, 40">
+<area href="https://web.archive.org/web/20060219221455/http://aymantarshah.com/guestbook/guestbook.php" shape="rect" coords="209, 18, 320, 44">
+<area href="https://web.archive.org/web/20060219221455/http://www.aymantarshah.com/contactus.html" shape="rect" coords="348, 16, 460, 43">
+</map>
+<img src="./aymantarshah-homepage_files/linkdown.gif" width="485" height="50" border="0" alt="" usemap="#linkdown_Map"></div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <div align="center">
+            &nbsp;</div>
+        <p align="center">
+        <img border="1" src="./aymantarshah-homepage_files/copyr.gif" width="354" height="50"></p></td>
+    </tr>
+  </tbody></table>
+</div>
+<p align="center">&nbsp;</p>
+
+</body></html>
