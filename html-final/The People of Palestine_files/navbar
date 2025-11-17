@@ -1,0 +1,42 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+document.write("<table border=0 cellpadding=3 cellspacing=0 align=center bgcolor=#cccccc width=430><tr><td>");
+document.write("<table border=0 cellpadding=0 cellspacing=0 width=\"100%\"><tr><td width=\"1%\"><img src=\"http://us.yimg.com/i/wr/wrsm1.gif\" width=\"14\" height=\"13\" alt=\"\" border=\"0\"></td><td><font face=arial size=-1 color=#000000>&nbsp;<b>WebRing</b></font></td><td align=right><font face=arial size=-2 color=#000000><a href=\"http://dir.webring.yahoo.com/rw\" target=_top>Home</a> - <a href=\"http://dir.webring.yahoo.com/h/what.html\" target=_top>About</a> - <a href=\"http://dir.webring.yahoo.com/h/privacy.html\" target=_top>Privacy</a></font></td></tr></table>");
+document.write("</td></tr>");
+document.write("<tr><td>");
+document.write("<table border=0 cellpadding=2 cellspacing=0 bgcolor=\"#990066\" width=\"100%\"><tr><td><table border=0 cellpadding=1 cellspacing=0 bgcolor=\"#eeeeee\" width=\"100%\"><tr>");
+document.write("<td width=\"1%\"><img src=\"http://us.f1.yahoofs.com/users/3e627fc0/bc/tn_Yahoo!+Photo+Album/ringlogo---2.gif?bcMoO.pBss.mAqow\" width=\"50\" height=\"50\" alt=\"\" border=\"0\"></td>");
+document.write("<td><table border=0 cellpadding=0 cellspacing=4 width=\"100%\" align=center><tr><td nowrap><font face=arial color=#000000><b>Palestinians Webring </b></font></td>");
+document.write("<td nowrap align=right><font face=arial size=-2 color=#000000> by <a href=\"http://profiles.yahoo.com/jaber\" target=_top>jaber</a></font></td>");
+document.write("</tr><tr><td colspan=2 height=1 bgcolor=\"#990066\"><img src=\"http://us.yimg.com/i/wr/blank.gif\" width=\"1\" height=\"1\" alt=\"\" border=\"0\"></td></tr><tr><td nowrap colspan=2 align=center><font face=arial size=-1 color=#000000> [ <a href=\"http://edit.webring.yahoo.com/cgi-bin/membercgi?ring=palestinians&addsite\" target=_top>Join Now</a> | <a href=\"http://nav.webring.yahoo.com/hub?ring=palestinians&id=18&hub\" target=_top>Ring Hub</a> | <a href=\"http://go.webring.yahoo.com/go?ring=palestinians&id=18&random\" target=_top>Random</a> | <b><a href=\"http://go.webring.yahoo.com/go?ring=palestinians&id=18&prev\" target=_top>&lt;&lt; Prev</a> | <a href=\"http://go.webring.yahoo.com/go?ring=palestinians&id=18&next\" target=_top>Next &gt;&gt;</a></b> ] </font></td></tr></table></td></tr></table></td></tr></table>");
+document.write("</td></tr>");
+document.write("</table>");
+
+}
+/*
+     FILE ARCHIVED ON 08:12:01 Nov 29, 2001 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 02:39:22 Nov 12, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.052
+  exclusion.robots: 0.04
+  exclusion.robots.policy: 0.024
+  esindex: 0.015
+  cdx.remote: 15.016
+  LoadShardBlock: 591.441 (3)
+  PetaboxLoader3.datanode: 474.884 (4)
+  PetaboxLoader3.resolve: 173.476 (2)
+  load_resource: 71.893
+*/

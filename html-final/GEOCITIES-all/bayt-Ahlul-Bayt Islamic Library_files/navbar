@@ -1,0 +1,32 @@
+var _____WB$wombat$assign$function_____=function(name){return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name))||self[name];};if(!self.__WB_pmw){self.__WB_pmw=function(obj){this.__WB_source=obj;return this;}}{
+let window = _____WB$wombat$assign$function_____("window");
+let self = _____WB$wombat$assign$function_____("self");
+let document = _____WB$wombat$assign$function_____("document");
+let location = _____WB$wombat$assign$function_____("location");
+let top = _____WB$wombat$assign$function_____("top");
+let parent = _____WB$wombat$assign$function_____("parent");
+let frames = _____WB$wombat$assign$function_____("frames");
+let opens = _____WB$wombat$assign$function_____("opens");
+document.write("<fORM method=\"POST\" ACTION=\"http://lb.webring.com/cgi-bin/hubsearch\"><center><table cellpadding=0 cellspacing=0 border=2 bordercolor=8fb5f6 bgcolor=ffffff><tr><td align=left><table cellspacing=1 cellpadding=1 border=1 bordercolor=8fb5f6 width=375><tr><td align=center width=\"1%\"><a href=\"http://dir.webring.com/rw\"><img src=\"http://img.webring.com/wricon.gif\" border=1></a></td><td align=center><font face=arial color=purple><b>WebRing - We Bring the Internet Together</b></td></tr><tr><td align=center colspan=2><font face=arial size=-1 color=blue>Welcome! Browse our extensive <a href=\"http://dir.webring.com/rw\">Directory</a> or,<br>enter a keyword to find a Ring on any topic:<input name=\"query\" type=\"TEXT\" size=\"25\"><input type=\"SUBMIT\" name=\"Submit\" value=\"Search\"><input type=\"hidden\" name=\"Method\" value=\"and\" checked><input type=\"hidden\" name=\"RingDesc\" value=on checked><input type=\"hidden\" name=\"Keywords\" value=on checked></font></td></tr><tr><td colspan=2 bgcolor=ccccff><font face=arial size=-2>Member, <a href=\"http://L.webring.com/h?miss_ssnb&wrid=ahlulbayt14&unum=96916933410037136&url=\">check here</a> for assistance with replacing this alert with your NavBar(s).</td></tr></table></td></tr></table></form>\r");
+
+}
+/*
+     FILE ARCHIVED ON 15:35:36 Apr 29, 2007 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 17:54:38 Nov 07, 2025.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.825
+  exclusion.robots: 0.026
+  exclusion.robots.policy: 0.011
+  esindex: 0.016
+  cdx.remote: 36.282
+  LoadShardBlock: 126.879 (3)
+  PetaboxLoader3.datanode: 62.791 (4)
+  PetaboxLoader3.resolve: 158.678 (2)
+  load_resource: 121.821
+*/
